@@ -1,26 +1,40 @@
 def new_hash
   # return an empty hash
-  result = new.Hash
+  result = Hash.new
+  result
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  result = Hash.new
+  result[:one] = 1
+  result
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  result = Hash.new
+  result[:name] = "Grace Hopper"
+  result
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  result = Hash.new
+  result[:id] = 5
+  result
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
+  result = Hash.new
+  result[key] = value
+  result
 end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+  
 end
 
 def update_counting_hash(hash, key)
